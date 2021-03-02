@@ -17,7 +17,7 @@ public class ConnectionManager {
 
     public ConnectionManager()
     {
-        this.conn =  "https://api.telegram.org/bot1358271942:AAFKWnVK8tghnlDVMNI7rBQab3m2r4N6GXo";
+        this.conn =  "";
 
     }
 
