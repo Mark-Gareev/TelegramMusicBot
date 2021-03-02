@@ -1,4 +1,4 @@
-package com.company;
+package MainMusicAndDataWork;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

@@ -1,4 +1,4 @@
-package com.company;
+package MainMusicAndDataWork;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
             bot.start();
             while (true) {
-                if (scan.next().equals("exit")) {
+                if (scan.next().equals("q")) {
                     bot.stop();
                     System.out.println("Goodbye! Bot was finished his work");
                     break;

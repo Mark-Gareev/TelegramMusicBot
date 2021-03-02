@@ -1,6 +1,5 @@
-package com.company;
+package MainMusicAndDataWork;
 
-import java.sql.Connection;
 
 public class Bot extends Thread{
     private ConnectionManager con = new ConnectionManager();

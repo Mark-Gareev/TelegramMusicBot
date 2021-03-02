@@ -1,4 +1,4 @@
-package com.company;
+package MainMusicAndDataWork;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -8,7 +8,7 @@ public class Message {
     private String MessageText;
     public Message(String in){
         Pattern chat = Pattern.compile("\"chat\".+?,");
-        Pattern text = Pattern.compile("\"text\".+?}");
+        Pattern text = Pattern.compile("\"text\".+?,");
         Matcher chatsearch = chat.matcher(in);
         Matcher textsearch = text.matcher(in);
         while(chatsearch.find())
@@ -23,4 +23,3 @@ public class Message {
         return chatID;
     }
 }
-//1024316979
